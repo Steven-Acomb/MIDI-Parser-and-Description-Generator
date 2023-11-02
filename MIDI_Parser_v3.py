@@ -895,7 +895,7 @@ def classify_chunk_data(hex_bytes, bytes_remaining):
 midi_file = MidiFile()
 
 print(midi_file.__str__())
-# midi_file.to_tabular_format_csv()
-# midi_file.to_block_format_txt()
+midi_file.to_tabular_format_csv()
+midi_file.to_block_format_txt()
 
 print("\nComplete.")
